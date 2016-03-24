@@ -1,6 +1,6 @@
 {
   "name": "tovar.js",
-  "version": "0.0.2-alpha",
+  "version": "0.0.3-alpha",
   "description": "Lightweight-flexible-supercharged Library for Var assignments",
   "main": "index.js",
   "directories": {
@@ -120,7 +120,7 @@
     "webpack": "^1.9.12",
     "webpack-stream": "^3.1.0",
     "xss-filters": "^1.2.6",
-    "yargs": "^4.1.0"    
+    "yargs": "^4.1.0"
   },
   "devDependencies": {
     "jslint": "~0.7",
