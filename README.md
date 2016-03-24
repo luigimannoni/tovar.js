@@ -9,7 +9,7 @@ Development files are usually bloated with `var` assignments, this simple librar
 ## Quick start
 Install it from npm
 
-    $ npm install -g tovar
+    $ npm install -g tovar.js
 
 ## How to implement
 ```javascript
