@@ -137,8 +137,10 @@
     "yargs": "^4.8.1"
   },
   "devDependencies": {
-    "jslint": "~0.7",
     "JSV": "~4.0.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "jslint": "~0.7",
     "vows-si": "~0.7.1"
   },
   "keywords": [
