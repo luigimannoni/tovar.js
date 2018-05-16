@@ -13,21 +13,27 @@ Install it from npm
 
 ## How to implement
 ```javascript
-toVar = require("tovar");
+const t = require('tovar');
 
-var myString = toVar('Hello World!');
-var myObject = toVar({ value: 'Hello World!' });
-var myInteger = toVar(42);
+const myString = t('Hello World!');
+const myObject = t({ value: 'Hello World!' });
+let myInteger = t(42);
 
 console.log(myString);
-	// Returns: "Hello World!"
+	// Returns: 'Hello World!'
 
 console.log(myObject);
 	// Returns: { value: 'Hello World!' }
 
 console.log(myInteger);
-	// Returns: 42
+  // Returns: 42
+
+myInteger = t(0);
+
+console.log(myInteger);
+  // Returns: 0
 ```
+Magic, huh?
 
 ## Bugs and feature requests
 
