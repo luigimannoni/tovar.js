@@ -19,19 +19,13 @@ const myString = t('Hello World!');
 const myObject = t({ value: 'Hello World!' });
 let myInteger = t(42);
 
-console.log(myString);
-	// Returns: 'Hello World!'
-
-console.log(myObject);
-	// Returns: { value: 'Hello World!' }
-
-console.log(myInteger);
-  // Returns: 42
+console.log(myString);  // Returns: 'Hello World!'
+console.log(myObject);  // Returns: { value: 'Hello World!' }
+console.log(myInteger); // Returns: 42
 
 myInteger = t(0);
 
-console.log(myInteger);
-  // Returns: 0
+console.log(myInteger); // Returns: 0
 ```
 Magic, huh?
 
