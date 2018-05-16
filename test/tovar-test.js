@@ -1,16 +1,16 @@
-const expect = require('expect');
-const tovar = require('..');
+const { expect } = require('chai');
+const t = require('..');
 
 describe('tovar', function() {
   it('can pass a string', function() {
-    expect(tovar( 'Hello World!' )).to.be( 'Hello World!' )
+    expect(t( 'Hello World!' )).to.equal( 'Hello World!' );
   });
 
   it('can pass an integer', function() {
-    expect(tovar( 42 )).to.be( 42 )
+    expect(t( 42 )).to.equal( 42 );
   });
 
   it('can also pass undefined values!!!', function() {
-    expect(tovar(undefined)).to.be(undefined)
+    expect(t(undefined)).to.be.undefined;
   })
 });
