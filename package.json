@@ -1,6 +1,6 @@
 {
   "name": "tovar.js",
-  "version": "0.0.4-alpha",
+  "version": "0.1.9-rc1",
   "description": "Lightweight-flexible-supercharged Library for Var assignments",
   "main": "index.js",
   "directories": {
@@ -138,6 +138,7 @@
   },
   "devDependencies": {
     "JSV": "~4.0.2",
+    "eslint": "^2.13.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.11.0",
     "jslint": "~0.7",
