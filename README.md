@@ -1,7 +1,10 @@
 # Lightweight-flexible-supercharged Library for Var assignments
 
-[![npm version](https://img.shields.io/npm/v/bootstrap.svg)](#)
-[![Build Status](https://img.shields.io/travis/twbs/bootstrap/master.svg)](#)
+![npm](https://img.shields.io/badge/npm-latest-brightgreen.svg)
+![npm version](https://img.shields.io/badge/npm-v6.1.0-blue.svg)
+![build](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![thicc](https://img.shields.io/badge/thiccness-very-red.svg)
+
 
 ToVar.js is a sleek, intuitive, and powerful front-end framework for faster and easier web development.
 Development files are usually bloated with `var` assignments, this simple library supercharges your web application leveraging variable assignments to a third-party module.
